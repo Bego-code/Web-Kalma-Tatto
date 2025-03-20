@@ -1,0 +1,927 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html {
+    min-height: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-bottom: 40px;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    font-family: fantasy, Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+/*----HEADER----*/
+header {
+    padding: 150px;
+    text-align: center;
+    background-image: url(img/Salonestudio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+}
+
+header div {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.781);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+
+
+/*I----ICONOS REDES----*/
+.icon1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+}
+
+.icon2 {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 30px;
+}
+
+
+header h1 {
+    margin: 0 0 20px;
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    overflow-wrap: break-word;
+}
+
+header p {
+    padding: 0 0 10px;
+    font-size: 30px;
+    color: rgb(245, 145, 41);
+}
+
+
+/*Barra de navegación*/
+
+.barranav {
+    padding: 14px 20px;
+    display: flex;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+
+}
+
+.barranav a {
+    padding: 14px 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.barranav a:hover {
+    background-color: rgba(177, 164, 164, 0.624);
+
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*section*/
+.main {
+    flex: 70%;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+
+
+/*----------ARTICULO 0----------*/
+.article0 {
+    padding-top: 80px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(img/Pantera.jpg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+}
+
+.cont0 h2 {
+    margin-top: 200px;
+    padding: 70px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    box-shadow: 0px 5px 100px 5px rgb(245, 145, 41);
+    font-weight: 300;
+}
+
+
+
+/*----------PRIMER ARTICULO----------*/
+.article1 {
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+    justify-content: flex-start;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.cont1 {
+    margin-top: 5px;
+    padding: 20px;
+    flex: 1%;
+}
+
+
+.cont1 h3 {
+    display: flex;
+    justify-content: left;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: white;
+    font-weight: 300;
+}
+
+.cont1 blockquote {
+    font-size: 20px;
+    margin: 2px;
+    font-style: italic;
+    color: rgb(247, 143, 24);
+}
+
+.cont1 p {
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+
+.video1 {
+    margin-top: 60px;
+    padding: 10px;
+    margin-right: 20px;
+    width: 600px;
+    display: block;
+    object-fit: cover;
+
+}
+
+
+
+/*---------- SEGUNDO ARTICULO----------*/
+.article2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: 150px;
+    background-color: rgb(0, 0, 0);
+}
+
+.article2 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    color: transparent;
+    font-weight: 300;
+    color: white;
+}
+
+
+.artistas {
+    margin-top: 100px;
+    margin-right: 20px;
+    color: white;
+
+}
+
+
+
+/*----ARTISTA 1----*/
+.cont3-1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+.arthur h2 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.arthur p {
+    display: flex;
+    padding: 70px;
+    font-size: 40px;
+}
+
+/*----ARTISTA 2----*/
+.cont3-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+.caro h2 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.caro p {
+    display: flex;
+    padding: 70px;
+    font-size: 40px;
+}
+
+/*----ARTISTA 3----*/
+.cont3-3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.fer h2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.fer p {
+    display: flex;
+    padding: 70px;
+    font-size: 40px;
+}
+
+.artistas img {
+    margin-top: 30px;
+    height: 500px;
+
+
+}
+
+
+
+
+
+/*----------TERCER ARTICULO----------*/
+.article3 {
+    background-image: url(img/Mano1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1500px;
+}
+
+
+.article3 h3 {
+    color: white;
+    font-weight: 300;
+    margin-top: 200px;
+    padding: 150px 50px 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.article3 ul {
+    position: relative;
+    padding: 40px 350px;
+}
+
+.article3 ul li {
+    list-style: none;
+    text-align: center;
+
+}
+
+.article3 ul li :hover {
+    background-color: rgb(96, 96, 96);
+
+}
+
+.article3 ul li p {
+    text-align: center;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 30PX;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+
+.images {
+    display: flex;
+    margin-top: 100px;
+    margin: 50px;
+    justify-content: center;
+    gap: 40px;
+
+
+}
+
+.img1 {
+    width: 320px;
+    height: 400px;
+
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: rgb(96, 96, 96);
+    font-size: 30px;
+}
+
+
+
+
+/*---------- CUARTO ARTICULO----------*/
+.article4 {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    padding: 50px;
+    margin: 40px;
+    margin-top: 300px;
+    background-image: url(img/salon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact {
+    display: flex;
+    display: inline;
+    text-align: center;
+
+
+
+}
+
+.contact h3 {
+    font-size: 60px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.cont4 {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+
+.cont4 h2 {
+    display: flex;
+    padding: 10px;
+    font-size: 40px;
+    margin: 2px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(245, 145, 41);
+    font-weight: 300;
+
+}
+
+.cont4 p {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.datos {
+    display: inline-block;
+    border: 3px solid rgb(96, 96, 96);
+    padding: 50px;
+    margin: 50px;
+
+}
+
+.telefono1 {
+    font-size: 30px;
+    color: rgb(250, 249, 248);
+    margin: 0;
+}
+
+.telefono2 {
+    font-size: 30px;
+    ;
+}
+
+.direccion {
+    font-size: 30px;
+    color: rgb(245, 145, 41);
+    text-shadow: 0 0 70px rgba(245, 146, 41, 0.397), 0 0 70px rgba(245, 146, 41, 0.336), 0 0 70px rgb(245, 145, 41);
+    margin: 5px;
+
+}
+
+.direccion2 {
+    font-size: 30px;
+    ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hr2 {
+    border: none;
+    color: rgba(177, 164, 164, 0.624);
+    background-color: rgb(96, 96, 96);
+}
+
+.fieldset1 {
+    border: transparent;
+    margin-top: 50px;
+    width: 10px;
+    height: 260px;
+
+}
+
+fieldset input {
+    background-color: rgba(0, 0, 0, 0.411);
+    border: 2px solid rgba(177, 164, 164, 0.624);
+    color: white;
+}
+
+fieldset textarea {
+    background-color: rgba(0, 0, 0, 0.411);
+    border: 2px solid rgba(177, 164, 164, 0.624);
+    color: white;
+}
+
+.contact button {
+    margin-top: 10px;
+    width: 110px;
+    height: 30px;
+    border: 2px solid rgb(245, 145, 41);
+}
+
+
+
+
+
+/*-------QUINTO ARTICULO------*/
+.article5 {
+    display: flex;
+    margin: 100px;
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.article5 h3 {
+    margin-top: 260px;
+    margin-right: 250px;
+    font-size: 70px;
+    color: rgb(245, 145, 41);
+}
+
+
+form {
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 400px;
+    ;
+}
+
+fieldset {
+    border: 1px solid rgba(255, 151, 39, 0.63);
+}
+
+input {
+    width: 550px;
+    height: 50px;
+}
+
+legend {
+    color: white;
+    font-size: 30px;
+
+}
+
+legend p {
+    font-size: 20px;
+}
+
+textarea {
+    width: 550px;
+    ;
+    font-size: 15px;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+
+}
+
+input[type="radio"]:checked {
+    border-color: rgb(245, 145, 41);
+    background-color: white;
+
+
+}
+
+button {
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+    border: 2px solid rgb(245, 145, 41);
+    float: right;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+form {
+    margin-bottom: 300px;
+}
+
+button {
+    float: none;
+    margin: 10px auto;
+    display: block;
+
+}
+
+
+
+
+/*Aside*/
+
+aside {
+    flex: 1%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    max-height: max-content;
+    max-width: 100%;
+    overflow: hidden;
+    position: sticky;
+    top: -50px;
+    margin-bottom: 300px;
+    right: 0;
+    z-index: 1;
+
+}
+
+.shops img {
+    justify-content: left;
+    padding-right:  20px;
+    width: 260px;
+    height: 160px;
+
+}
+
+
+.shops h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: rgb(245, 145, 41);
+    font-weight: 300;
+
+}
+
+hr {
+    border: none;
+    color: rgb(245, 145, 41);
+    background-color: rgb(245, 145, 41);
+    height: 2px;
+
+}
+
+h3 {
+    margin: 10px;
+    text-align: right;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-weight: 300;
+
+
+}
+
+p {
+    margin-top: 2px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+/*------FOOTER------*/
+footer {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    margin-top: 150px;
+    width: 100%;
+    height: 350px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4 {
+    color: white;
+    margin: 20px;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.block1 {
+    display: inline-block;
+    margin-right: 200px;
+
+}
+
+.block1 h4 {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 0;
+
+}
+
+.block1 ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.block1 li {
+    font-size: 15px;
+
+}
+
+
+.block2 {
+    display: inline-block;
+    justify-content: right;
+    margin-left: 200px;
+
+}
+
+.block2 h4 {
+    margin-left: 16px;
+    font-size: 25px;
+    margin-bottom: 0;
+
+}
+
+.block2 ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.block2 li {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.logofooter {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+
+svg {
+    margin-right: 10px;
+
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 768px) {
+    .barranav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /*RES ROW*/
+    .row {
+        flex-direction: column;
+    }
+
+    /*RES HEADER*/
+    header {
+        padding: 50px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 20px;
+    }
+
+    /*RES ARTICLE 0*/
+    .article0 {
+        height: auto;
+    }
+
+    .cont0 h2 {
+        font-size: 40px;
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .video1 {
+        width: 100%;
+        height: auto;
+    }
+
+    /*RES ARTICLE 1*/
+    .article1 {
+        margin: 20px;
+        padding: 20px;
+        flex-direction: column;
+
+    }
+
+    .cont1 h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .cont1 p {
+        font-size: 30px;
+    }
+
+    .artistas {
+        flex-direction: column;
+    }
+
+    .artistas img {
+        display: none;
+    }
+
+    .cont3-1,
+    .cont3-2,
+    .cont3-3 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .arthur p,
+    .caro p,
+    .fer p {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+
+    /*RES ARTICLE 3 OCULTO*/
+    .article3{
+        display: none;
+    }
+
+    /*RES ARTICLE 4*/
+    .article4 {
+        margin: 20px;
+        margin-top: 50px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .cont4 {
+        font-size: 30px;
+    }
+
+    .cont4 h2 {
+        font-size: 20px;
+    }
+
+    .cont4 p,
+    .telefono1,
+    .telefono2,
+    .direccion,
+    .direccion2 {
+        font-size: 20px;
+    }
+
+    .fieldset1 {
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+    /*RES ARTICLE 5*/
+    .article5 {
+        margin: 20px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .article5 h3 {
+        font-size: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    form {
+        margin-bottom: 50px;
+    }
+
+    button {
+        float: none;
+        margin: 10px auto;
+        display: block;
+    }
+
+    /*RES ASIDE OCULTO*/
+    aside {
+        display: none;
+    }
+
+    /*RES FOOTER OCULTO*/
+    footer {
+        display: none;
+    }
+
+}
